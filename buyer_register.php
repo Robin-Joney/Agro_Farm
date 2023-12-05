@@ -94,8 +94,8 @@ if(isset($_POST['register']))
     $pinno = mysqli_real_escape_string($conn, $_POST['pinno']);
     $dist = mysqli_real_escape_string($conn, $_POST['dist']);
 
-    $sql = "INSERT INTO buyer (busername, bpassword, date, mobileno, address, pinno, dist) 
-            VALUES ('$username', '$password', '$date', '$mobileno', '$address', '$pinno', '$dist')";
+    mysqli_query($conn, "INSERT INTO buyer (busername, bpassword, date, mobileno, address, pinno, dist) 
+            VALUES ('$username', '$password', '$date', '$mobileno', '$address', '$pinno', '$dist')");
 
 
 echo "<script type='text/javascript'>alert('Buyer account registered successfully');</script>";

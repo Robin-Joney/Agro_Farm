@@ -10,7 +10,7 @@
 			<h3>:9786208122 </h3>
 		</div>
 		<div class="clear"></div>
-		<h2><a href="index.html">Agro farm</a></h2>
+		<h2><a href="index.php">Agro Corner</a></h2>
 		<div class="copy">
 			<p>A PROFESSIONAL WEBSITE FOR FARMERS!!!</p>
 		</div>

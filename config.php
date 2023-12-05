@@ -1,6 +1,6 @@
 <?php
 
-$host = 'localhost:3308';
+$host = 'localhost';
 $mysql_username = 'root';
 $mysql_password = '';
 $mysql_db = 'agro';

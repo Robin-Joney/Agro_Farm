@@ -4,14 +4,50 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
-/* reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
-ol,ul{list-style:none;margin:0;padding:0;}
-blockquote,q{quotes:none;}
-blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
-table{border-collapse:collapse;border-spacing:0;}
-table tr td{ padding:10px; margin:10px;}
+
+/* Reset Styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table tr td {
+  padding: 10px;
+  margin: 10px;
+}
+
 
 /* start editing from here */
 a{text-decoration:none;}
@@ -46,14 +82,14 @@ h2.style{
 	font-family: 'Julius Sans One', sans-serif;
 	letter-spacing: -1px;
 	font-size: 2.5em;
-	color: rgb(10, 195, 189);
+	color: rgb(29 120 7);;
 	text-transform: capitalize;
 	text-shadow: 0 1px 0 #FFFFFF;
 	margin: 0.3em 0;
 }
 h3.style a{
 	font-size: 1.5em;
-	color: rgb(10, 195, 189);
+	color: rgb(29 120 7);;
 	text-transform: uppercase;
 	text-shadow: 0 1px 0 #FFFFFF;
 	font-family: 'Julius Sans One', sans-serif;
@@ -81,15 +117,15 @@ p.para{
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	background:	rgb(10, 195, 189);
+	background:	rgb(29 120 7);;
 }
 /* start header*/
 .header_bg{
-	background:#10c1c1;
+	background:#1f7002;
 	margin-top: -90px;
 }
 .h_bg{
-	border-bottom:10px solid #10c1c1;
+	border-bottom:10px solid #1f7002;
 }
 .top-nav,
 .top-nav ul,
@@ -101,7 +137,7 @@ p.para{
 	outline: none;
 }
 .top-nav {
-	/*border-top: 10px solid #206D58;background: #10c1c1;*/
+	/*border-top: 10px solid #206D58;background: #1f7002;*/
 	/*width: 80%;*/
 	margin: 0 auto;
 	position: relative;
@@ -111,7 +147,7 @@ p.para{
 	border-right:none;
 }
 .top-nav li {
-	border-right: 1px solid rgb(10, 195, 189);
+	border-right: 1px solid rgb(29 120 7);;
 	position: relative;
 	list-style: none;
 	float: left;
@@ -119,9 +155,9 @@ p.para{
 	/*width: 24.88888%;*/
 }
 .top-nav li.active a{
-	color:#070707;
+	color: #000;
 	text-align: center;
-	border-top: 10px solid #29910d;
+	border-top: 10px solid rgba(255,255,255,1);
 	margin-top: -10px;
 }
 .top-nav li a {
@@ -141,7 +177,7 @@ p.para{
 	transition: all 0.5s ease-out;
 }
 .top-nav li a:hover{
-	color:#0b0b0b;
+	color:#050505;
 }
 /* start main*/
 .main_bg{
@@ -156,7 +192,7 @@ p.para{
 .content h2{
 	font-family: 'Engagement', cursive;
 	font-size: 10em;
-	color: rgb(41, 145, 13,1);
+	color: rgb(23 92 6);
 	text-transform: capitalize;
 	text-shadow: 0 1px 0 #FFFFFF;
 }
@@ -167,7 +203,7 @@ p.para{
 .grid_1_of_3{
 	float:left;
 	margin:4% 0 4% 4%;
-	background:rgb(10, 195, 189);
+	background:rgb(29 120 7);;
 	position: relative;
 }
 .grid_1_of_3:first-child { 
@@ -185,8 +221,8 @@ p.para{
 }
 .images_1_of_3  h3{
 	text-transform: capitalize;
-	font-size: 2.5em;
-	color: #fbfaf7;
+	font-size: 1.5em;
+	color: #ffffff;
 	font-family: 'Julius Sans One', sans-serif;
 	margin: 0 0 0.5em 0;
 }
@@ -208,7 +244,7 @@ p.para{
 	text-transform: uppercase;
 	letter-spacing: 0px;
 	font-size: 0.8125em;
-	color:rgb(10, 195, 189);
+	color:rgb(29 120 7);;
 	line-height:1.8em;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -236,7 +272,7 @@ p.para{
 .span_1_of_3 span{
 	font-size: 0.8725em;
 	line-height: 1.8em;
-	color: rgb(10, 195, 189);
+	color: rgb(29 120 7);;
 	text-transform: uppercase;
 }
 .span_1_of_3 p.top{
@@ -279,12 +315,14 @@ p.para{
 }
 /*start footer*/
 .footer_bg{
-	background: #10c1c1;
+	background: #1f7002;
 }
 .footer{
 	padding: 2%;
 	text-align:center;
 }
+
+.footer {}
 .f_nav{
 	float: left;
 }
@@ -303,7 +341,7 @@ p.para{
 	display: block;
 }
 .f_nav li a:hover{
-	color:#29910d;
+	color:#ffffff;
 	-webkit-transition: 0.9s;
 	-moz-transition: 0.9s;
 	-o-transition: 0.9s;
@@ -328,7 +366,7 @@ p.para{
 }
 .footer h2 a{
 	font-size: 6em;
-	color: #29910d;
+	color: #ffffff;
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	font-family: 'Engagement', cursive;
@@ -455,7 +493,7 @@ margin-bottom: 3%;
 	line-height: 1.8em;
 }
 .company_address p span{
-	color: rgb(10, 195, 189);
+	color: rgb(29 120 7);;
 	cursor:pointer;
 }
 .company_address p span:hover{
@@ -541,7 +579,7 @@ vertical-align:middle;
 	cursor:pointer;
 	outline: none;
 	border:none;
-	background: #C5B729;
+	background: #498d05;
 	padding: 20px 80px;
 	text-transform: uppercase;
 	letter-spacing: 0px;

@@ -48,25 +48,7 @@ if (isset($_POST['submit'])) {
 ?>
 
 <!-- HTML Form for Adding/Editing Products -->
-<style>
-    .contact-form{
-        font-size: larger;
-    }
-    input[type=file] {
-    width: 350px;
-    max-width: 100%;
-    color: #444;
-    padding: 5px;
-    font-size: medium;
-
-    }
-    .q{
-        width: 30%;
-    }
-
-    
-</style>
-<div class="container ">
+<div class="container">
     <div class="main">
         <div class="content">
             <a href="index.php"><h2>Agro Corner</h2></a>
@@ -74,46 +56,29 @@ if (isset($_POST['submit'])) {
         <div style="margin-left:9.5%">
         <h3 class="style"><a href="#">Add Product</a></h3>
         <div class="specials-grids">
-            <form class="contact-form" action="add_products.php"  method="post" enctype="multipart/form-data">
+            <form action="add_products.php" method="post" enctype="multipart/form-data">
                 <!-- Add your input fields for product details here -->
 
-                <table style="margin-top: -1.1%; width: 53%;">
-                    <tbody>
-                        <tr>
-                            <td><label for="pname">Product Name</label></td>
-                            <td>:</td>
-                            <td><input style="width:50%; height:10px" type="text" id="pname" name="pname" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="cat">Category</label></td>
-                            <td>:</td>
-                            <td><input style="width:50%; height:10px" type="text" id="cat" name="cat" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="pdescp">Description</label></td>
-                            <td>:</td>
-                            <td><textarea style="width:50%; height:50px" style="height:5%" id="pdescp" name="pdescp" required></textarea></td>
-                        </tr>
-                        <tr>
-                            <td> <label for="price">Price</label></td>  
-                            <td>:</td>
-                            <td><input style="width:50%; height:10px" type="text" id="price" name="price" required></td>
-                            
-                        </tr>
-                        <tr>
-                            <td><label for="qty">Quantity</label></td>
-                            <td>:</td>
-                            <td><input style="width:50%; height:10px" type="text" type="number" id="qty" name="qty" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="pimg">Product Image</label></td>
-                            <td>:</td>
-                            <td><input class="choose"type="file" id="pimg" name="pimg" accept="image/*" required></td>
-                        </tr>
-                    </tbody>
                 </table>
-                <br>
-                <input  class="a_btn" type="submit" name="submit" value="Add Product">
+                <label for="pname">Product Name:</label>
+                <input type="text" id="pname" name="pname" required><br>
+
+                <label for="cat">Category:</label>
+                <input type="text" id="cat" name="cat" required><br>
+
+                <label for="pdescp">Description:</label>
+                <textarea id="pdescp" name="pdescp" required></textarea><br>
+
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price" required><br>
+
+                <label for="qty">Quantity:</label>
+                <input type="text" id="qty" name="qty" required><br>
+
+                <label for="pimg">Product Image:</label>
+                <input type="file" id="pimg" name="pimg" accept="image/*" required><br>
+
+                <input type="submit" name="submit" value="Add Product"><br>
             </form>
         </div>
         </div>
